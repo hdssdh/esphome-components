@@ -34,7 +34,7 @@ namespace
                             "set_date,"
                             "timestamp");
         di.setMeterType(MeterType::HeatMeter);
-        di.addLinkMode(LinkMode::T1);
+        di.addLinkMode(LinkMode::C1);
         di.addDetection(MANUFACTURER_DME, 0x04,  0x41);
         di.addDetection(MANUFACTURER_DME, 0x0d,  0x41);
         di.addDetection(MANUFACTURER_DME, 0x0c,  0x41);
